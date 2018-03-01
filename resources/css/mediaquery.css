@@ -1,0 +1,68 @@
+@media screen and (min-width: 992px){
+    .myside{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 991px){
+    .submitbtn1{
+        width: 100% !important;
+    }
+    .mainmenu{
+        display: none;
+    }
+    .mainbnr{
+        margin-top: 250px !important;
+    }
+    .Rentalbtn{
+        text-align: center !important;
+        padding-top: 20px !important;
+    }
+    .RentalText{
+        text-align: center !important;
+    }
+    .TopSocialIcons{
+        text-align: center;
+        padding-top: 10px !important;
+        padding-bottom: 20px;
+    }
+    .TopRight{
+        text-align: center !important;
+        padding-top: 20px;
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav a.icon:visited, .topnav a.icon:active {
+        color: #ffffff !important;
+    }
+    .topnav.responsive {
+        position: absolute;
+        width: 100%;
+
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .RentalLink{
+        display: none;
+    }
+    .footertext{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

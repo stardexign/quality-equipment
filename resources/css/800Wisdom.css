@@ -1,0 +1,735 @@
+@import url("sitefonts.css");
+@import url("mediaquery.css");
+body{
+    font-family: Akkurat-Regular !important;
+}
+.fotorama__thumb-border{
+    border-color:#f6891f !important;
+}
+.submitbtn2 {
+    background: #242021 !important;
+    border-radius: 0 !important;
+    color: #ffffff;
+    cursor: pointer !important;
+    margin-bottom: 3px;
+    width: 100%;
+    margin-top: 15px;
+}
+.submitbtn2:hover {
+    background: #000000 !important;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-box-shadow: none;
+    cursor: pointer !important;
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    background: #f6891f;
+    padding: 10px 25px;
+    color: #ffffff;
+    margin-right: 7px;
+    outline: 1px dashed #fff;
+    outline-offset: -5px;
+}
+
+.p-detail-btns{
+    border-bottom: 1px solid #d5d5d5;
+    padding-bottom: 15px;
+}
+.page-link{
+    background: #242021 !important;
+    border: 1px solid #ffffff;
+}
+.page-link:hover, .page-item.active .page-link{
+    background: #686868 !important;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-box-shadow: none;
+    cursor: pointer !important;
+}
+.page-link{
+    color: #ffffff !important;
+}
+.page-item.active .page-link{
+    border-color: #ffffff !important;
+}
+.page-item:first-child .page-link, .page-item:last-child .page-link{
+    border-radius: 0 !important;
+}
+.site-breadcrumbs h4{
+    font-size: 16px !important;
+    margin-bottom: 0 !important;
+}
+.site-pagination{
+    float: right;
+}
+.site-breadcrumbs{
+     background: #f1f1f1;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+a:focus, a:hover{
+    text-decoration: none !important;
+}
+/*------------ Main Menu ------------*/
+.mainmenu1 {
+    font-size: 16px;
+    position: relative;
+    padding: 0;
+}
+
+.mainmenu1 > li {
+    box-sizing: border-box;
+    height: 48px;
+    color: #f7f1e3;
+    border-bottom: 1px solid #ffffff;
+    cursor: pointer !important;
+}
+.mainmenu1 li:hover {
+    background: #000000;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-box-shadow: none;
+    cursor: pointer !important;
+}
+
+.mainmenu1 > li:first-child {
+    border-top: 0;
+}
+
+.mainmenu1 > li:last-child {
+}
+
+.mainmenu1 > li span {
+    line-height: 48px;
+    display: block;
+    font-size: 15px !important;
+}
+
+.mainmenu1 > li .icon {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    padding: 14px 20px 0 20px;
+}
+
+.mainmenu1 > li .messages1 {
+    font-size: 11px;
+    line-height: 19px;
+    display: block;
+    float: right;
+    width: 34px;
+    height: 18px;
+    margin-top: -33px;
+    margin-right: 19px;
+    padding: 0;
+    text-align: center;
+    background: url("../images/messages1.png") no-repeat;
+}
+
+.expand-triangle {
+    height: 10px;
+    content: " ";
+}
+
+.expand-triangle img {
+    width: 100%;
+    height: inherit;
+    vertical-align: top;
+}
+
+/*------------ Sub Menu ------------*/
+.submenu1 {
+    font-size: 13px;
+    box-sizing: border-box;
+    content: " ";
+    color: #ae9f9f;
+}
+
+.submenu1 li {
+    border-bottom: 1px solid #ffffff;
+    transition: border-left 220ms ease-in;
+    background-color: #f6891f;
+}
+.submenu1 li a{
+    color: #ffffff !important;
+}
+.submenu1 .chosen,
+.submenu1 .chosen:hover {
+    background: #000000;
+}
+
+.submenu1 li:hover {
+    background: #000000;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-box-shadow: none;
+    cursor: pointer !important;
+}
+
+.submenu1 li span {
+}
+/*------------ Main Menu ------------*/
+.mainmenu {
+    font-size: 16px;
+    position: relative;
+    padding: 0;
+}
+
+.mainmenu > li {
+    box-sizing: border-box;
+    height: 48px;
+    color: #f7f1e3;
+    border-top: 1px solid #ffffff;
+    background-color: #f6891f;
+    cursor: pointer !important;
+}
+.mainmenu li:hover {
+    background: #f6701f;
+    padding-left: 10px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-box-shadow: none;
+    cursor: pointer !important;
+}
+
+.mainmenu > li:first-child {
+    border-top: 0;
+}
+
+.mainmenu > li:last-child {
+}
+
+.mainmenu > li span {
+    line-height: 48px;
+    display: block;
+    padding-left: 20px;
+    font-size: 15px !important;
+}
+
+.mainmenu > li .icon {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    padding: 14px 20px 0 20px;
+}
+
+.mainmenu > li .messages {
+    font-size: 11px;
+    line-height: 19px;
+    display: block;
+    float: right;
+    width: 34px;
+    height: 18px;
+    margin-top: -33px;
+    margin-right: 19px;
+    padding: 0;
+    text-align: center;
+    background: url("../images/messages.png") no-repeat;
+}
+
+.expand-triangle {
+    height: 10px;
+    content: " ";
+}
+
+.expand-triangle img {
+    width: 100%;
+    height: inherit;
+    vertical-align: top;
+}
+
+/*------------ Sub Menu ------------*/
+.submenu {
+    font-size: 13px;
+    box-sizing: border-box;
+    content: " ";
+    color: #ae9f9f;
+}
+
+.submenu li {
+    border-bottom: 1px solid #ffffff;
+    height: 40px;
+    padding-top: 11px;
+    transition: border-left 220ms ease-in;
+    background-color: #242021;
+}
+.submenu li a{
+    color: #ffffff !important;
+}
+.submenu .chosen,
+.submenu .chosen:hover {
+    background: #000000;
+}
+
+.submenu li:hover, .submenu li:active {
+    background: #000000;
+    padding-left: 10px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-box-shadow: none;
+    cursor: pointer !important;
+    border-left: 12px solid #f6701f;
+}
+
+.submenu li span {
+    margin-left: 20px;
+}
+
+.p-detail img{
+    padding-bottom: 20px;
+}
+.p-detail p{
+    margin-bottom: 0 !important;
+    font-size: 15px !important;
+}
+.myside{
+    background: #f6891f;
+    padding: 10px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 22px !important;
+    margin-bottom: 20px;
+}
+.Sidecategories{
+    z-index: 99 !important;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding:10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+    text-decoration: none !important;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.btn{
+    cursor: pointer !important;
+}
+
+
+.vertical-menu {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.vertical-menu a {
+    background-color: #f6891f;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+.vertical-menu a:hover {
+    background-color: #242021;
+    padding-left: 20px;
+    text-decoration: none !important;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-box-shadow: none;
+}
+
+.vertical-menu a.active {
+    background-color: #242021;
+    color: white;
+}
+.content p{
+    font-size: 16px !important;
+}
+.lightgray{
+    color: #8e8e8e;
+}
+.content h2, .p-detail h2{
+    font-family: Akkurat-Bold !important;
+    font-size: 20px !important;
+    color: #f6891f;
+    padding-bottom: 10px;
+}
+.content ul>li{
+    list-style-type: square !important;
+    margin-left: 20px;
+}
+.MyNav{
+    position: relative;
+    height: 60px;
+}
+#brands{
+    padding-bottom: 50px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    background: #f6891f !important;
+    opacity: 1 !important;
+    border-radius: 0 !important;
+}
+.owl-pagination{
+    display: none;
+}
+.testimonial h3{
+    font-family: Akkurat-Regular;
+    font-size: 20px;
+    text-align: center;
+}
+.category-items h3, .category-items h2{
+    color: #000000 !important;
+}
+
+.category-items h3{
+    font-family: Akkurat-Regular;
+    font-size: 18px;
+    text-align: center;
+}
+.category-items h2{
+    font-family: Akkurat-Regular;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+.category-items img{
+    border: 1px solid #dedede;
+    width: 100%;
+}
+.category-items img:hover{
+    opacity: 0.5 !important;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+#categories{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#owl-demo .item h3{
+    font-family: Akkurat-Regular;
+    font-size: 18px !important;
+    color: #000;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#owl-demo .item{
+    margin: 3px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #dedede;
+}
+#NewArrivals{
+    background: #f6f6f6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Clients{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.Clients h2, .Heading h2{
+    font-family: Akkurat-Bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.Clients p{
+    font-family: Akkurat-Regular;
+    font-size: 16px;
+    color: #221e1f;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+.quotes{
+    font-size: 60px;
+}
+.blockquote{
+    border-left:0 !important;
+}
+.Rentalbtn{
+    padding-top: 40px;
+}
+.Rentalbtn a{
+    background: #221e1f;
+    padding: 10px; 30px;
+    color: #ffffff;
+    text-decoration: none !important;
+}
+.Rentalbtn a:hover{
+    background: #000000;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+.RentalText h2{
+    font-family: Akkurat-Bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.RentalText p{
+    font-family: Akkurat-Regular;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+#RentalDivisionSection{
+    background: #f6891f;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.submitbtn{
+    background:#f6891f !important;
+    border-radius: 0 !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 10px;
+    line-height: 2 !important;
+    cursor: pointer !important;
+}
+.submitbtn1{
+    background:#f6891f !important;
+    border-radius: 0 !important;
+    color: #ffffff;
+    cursor: pointer !important;
+    margin-bottom: 3px;
+}
+ .submitbtn1:hover{
+     background:#242021 !important;
+ }
+
+textarea{
+    border-radius: 0 !important;
+}
+.form-group{
+    margin-bottom: 10px !important;
+}
+.footertext input[type="text"]{
+    line-height: 40px !important;
+}
+.footertext h2{
+    font-family: Akkurat-Bold;
+    font-size: 23px;
+    color: #f6891f;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.footertext h3{
+    font-family: Akkurat-Regular;
+    font-size: 15px;
+    color: #f6891f;
+    text-transform: uppercase;
+}
+.footertext p{
+    font-family: Akkurat-Regular;
+    color: #ffffff;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.copyrights{
+    font-family: Akkurat-Regular;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.copyrights a{
+    color: #f6891f;
+}
+.copyrights a:hover{
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+#footer{
+    background: #221e1f;
+}
+.myheader{
+    z-index: 10;
+}
+.carousel{
+    z-index: 1;
+}
+#MainBanner{
+    margin-top: -30px;
+}
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+a:focus, a:hover{
+    color: #ffffff !important;
+}
+.RentalLink{
+    float: right;
+}
+.RentalLink a{
+    background: #242021;
+    line-height: 0.9;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.RentalLink a:hover{
+    background: #000000 !important;
+}
+/* Add a black background color to the top navigation */
+
+.topnav {
+    overflow: hidden;
+    background: #f6891f;
+    font-family: Akkurat-Regular !important;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+    font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #242021;
+    color: white;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+.topnav a:visited{
+    color: #ffffff !important;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #242021;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+.form-control{
+    font-family: Akkurat-Regular !important;
+    font-size: 13px !important;
+}
+.TopSearch{
+    padding-top: 18px;
+}
+.TopRight{
+    text-align: right;
+}
+.searchbtn{
+    border-radius: 0 !important;
+    background: #f6891f !important;
+    color: #ffffff !important;
+    padding:0 10px !important;
+    cursor: pointer;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    display: inline-block;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #555555;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    vertical-align: middle;
+}
+
+.TopSocialIcons{
+    padding-top: 45px;
+}
+.BtmSocialIcons{
+    padding-top: 0;
+}
+.Facebook{
+    background: #3a589b;
+    padding: 5px 10px;
+}
+.Facebook a , .linkedin a, .twitter a, .gplus a{
+    color:#ffffff;
+}
+.Facebook a:hover, .Facebook:hover, .linkedin a:hover, .linkedin:hover, .twitter a:hover, .twitter:hover, .gplus a:hover, .gplus:hover{
+    color:#ffffff !important;
+    background: #f6891f;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+.linkedin{
+    background: #007ab9;
+    padding: 5px 10px;
+}
+.twitter{
+    background: #1da1f3;
+    padding: 5px 10px;
+}
+.gplus{
+    background: #d64136;
+    padding: 5px 10px;
+}
+.PT10{ padding-top: 10px; }
+.PB10{ padding-bottom: 10px; }
+.PT20{ padding-top: 20px; }
+.PB20{ padding-bottom: 20px; }
+.PT30{ padding-top: 30px; }
+.PB30{ padding-bottom: 30px; }
+
+.p-detail a>img:hover{
+    opacity: 0.5 !important;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
